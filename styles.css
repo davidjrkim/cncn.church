@@ -18,9 +18,8 @@
 }
 
 main {
-    min-height: 75vh;
-
     padding-top: 170px;
+    padding-bottom: 50px;
 }
 
 .text-con {
@@ -272,7 +271,7 @@ header:hover .back-drop {
 
 .youtube {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 footer {
