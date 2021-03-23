@@ -18,7 +18,7 @@
 }
 
 main {
-    padding-top: 170px;
+    padding-top: 90px;
     padding-bottom: 50px;
 }
 
@@ -353,6 +353,13 @@ footer p a {
 }
 
 @media only screen and (max-width: 844px) {
+    nav {
+        min-height: 90px;
+    }
+    .logo-img {
+        width: 90px;
+        padding: 0;
+    }
     nav ul {
         display: none;
     }
@@ -377,6 +384,8 @@ footer p a {
     }
     .menu-wrap {
         display: inline-block;
+        top: 5px;
+        right: 5px;
     }
     .foot-social li a .fab {
         transform: scale(1.6);
